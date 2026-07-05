@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+      <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+    <h1 id="heading">Calculator Program</h1>
+    <p>Simple Fast Accurate</p>
+    <h1 class="num_head">Enter First Number</h1>
+    <input type="number" id="num1" placeholder="Enter first number" />
+    <h1 class="num_head">Enter Second Number</h1>
+    <input type="number" id="num2" placeholder="Enter second number" />
+    <h1 class="num_head">Result</h1>
+    <input type="text" id="result" />
+   
+    <div class="card">
+      <button id="add" onclick="Addition()">➕Add</button> 
+      <button id="sub" onclick="Subtraction()">➖Subtract</button> 
+     
+      <button id="mul" onclick="Multiplication()">✖️Multiply</button> 
+       <button id="div" onclick="Division()">➗Divide</button>
+      <button id="clear" onclick="Clear()">🗑️Clear</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
